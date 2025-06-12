@@ -1,0 +1,285 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #c6a784;
+}
+#navbar{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+#navbar > ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    height: 3rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    background: rgba(80, 56, 32, 0.92);
+}
+#navbar > ul > li > a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+#navbar > ul > li > a:hover{
+    text-decoration: underline;
+}
+#navbar > ul > li > a:active{
+    color: red;
+}
+.AboutMe{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5em;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    color: #503820;
+}
+.flip-container {
+    perspective: 1000px;
+    width: 30%;
+    margin: 20px auto;
+}
+
+.flipper {
+    transition: transform 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.flipper.flipped {
+    transform: rotateY(180deg);
+}
+#AboutMe {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    padding: 10px;
+    border: 1px solid #503820EA;
+    backface-visibility: hidden;
+    box-shadow: 0 0 30px rgb(85, 48, 10);
+}
+#AboutMe:hover {
+    cursor: pointer;
+}
+
+#Painting{
+    margin-top: 5rem;
+}
+#Painting > h2{
+    color: white;
+    text-align: center;
+    font-style: oblique;
+}
+#Painting > h4{
+    color: white;
+    text-align: center;
+    line-height: 0;
+}
+.PaintingParagraph{
+    color: #503820;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.2rem;
+}
+#paintings{
+    width: 100%;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+#Square\ ratio\ paintings{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.Subtitles{
+    text-align: center;
+    color: white;
+}
+#Square\ ratio\ paintings img{
+    width: 21%;
+    padding: 10px;
+    border-radius: 3rem;
+    border: 2px solid gray;
+    box-shadow: 5px 5px 10px black;
+}
+#Some\ more\ paintings{
+    width: 100%;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+#Some\ more\ paintings img{
+    width: 21%;
+    padding: 10px;
+    border-radius: 9rem;
+    border: 2px solid gray;
+    box-shadow: 5px 5px 10px black;
+}
+#Timelapse{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-bottom: 1px solid white;
+    padding-bottom: 2rem;
+}
+#Timelapse > a{
+    width: 23%;
+    margin-top: 1rem;
+}
+#Timelapse > a:hover{
+    transform: scale(1.1);
+}
+#Timelapse > a > img{
+    width: 100%;
+    border-radius: 1rem;
+}
+#workInProgress1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#workInProgress1 > img{
+    width: 25%;
+    border-radius: 3rem;
+}
+#workInProgress2{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#workInProgress2 > img{
+    width: 25%;
+    margin-top: 1rem;
+    border-radius: 3rem;
+    margin-bottom: 2rem;
+}
+.line{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid white;
+    margin-bottom: 2rem;
+}
+
+#Recommendations > h2{
+    color: white;
+    text-align: center;
+    font-style: oblique;
+}
+#Recommendations > h4{
+    color: white;
+    text-align: center;
+    line-height: 0;
+}
+.Recommendations{
+    color: #503820;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.2rem;
+}
+.Songs{
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    list-style: none;
+    border: 1px solid pink;
+    font-weight: bold;
+    background-color: rgba(80, 56, 32, 0.84);
+    height: 2rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    text-decoration: none;
+    color: rgb(43, 21, 0);
+    font-size: 1.2rem;
+}
+#ArtistsRecommendations{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1rem;
+    border-top: 1px solid white;
+}
+.Songs:hover{
+    background-color: lightpink;
+    text-decoration: underline;
+}
+#Artists{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#Artists > figure{
+    width: 15%;
+}
+#Artists > figure > figcaption{
+    color: #503820;
+    text-align: center;
+}
+#Artists > figure > img{
+    width: 100%;
+    border-radius: 50%;
+}
+#PrP{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    padding: 10px;
+    border: 1px solid #503820EA;
+    backface-visibility: hidden;
+    box-shadow: 0 0 30px rgb(85, 48, 10);
+}
+#Contact\ me{
+    border: 1px solid white;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+}
+#Contact\ me .Contact{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    display: block;
+    margin: 1rem;
+}
+#Contact\ me > a > span{
+    color: #503820;
+}
+#Contact\ me .Contact:hover{
+    text-decoration: underline;
+}
+#Contact\ me .Contact:active{
+    color: red;
+}
+#Pfp{
+    width: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7em;
+    color: #503820;
+    text-align: center;
+    border-radius: 50%;
+}
+
