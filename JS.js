@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const flipper = document.querySelector(".flipper");
     const aboutImage = document.getElementById("AboutMe");
 
-    let showingAboutMe = false;
+    let showingAboutMe = aboutImage.src.includes("AboutMe.jpg");
 
     function flipPhoto() {
         flipper.classList.add("flipped");
