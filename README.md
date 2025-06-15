@@ -1,3 +1,0 @@
-# WebDesign
-
-## Homework activity
