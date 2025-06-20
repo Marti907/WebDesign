@@ -223,6 +223,9 @@ html,body{
     background-color: lightpink;
     text-decoration: underline;
 }
+.Songs:active{
+    color: red;
+}
 #Artists{
     width: 100%;
     display: flex;
